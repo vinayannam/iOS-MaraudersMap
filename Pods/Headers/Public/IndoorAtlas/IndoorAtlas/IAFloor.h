@@ -1,0 +1,1 @@
+../../../../IndoorAtlas/indooratlas-ios-sdk/IndoorAtlas.framework/Versions/2.2.3-32/Headers/IAFloor.h

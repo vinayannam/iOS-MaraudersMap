@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D35698E1DDD7CA600C7025B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35698D1DDD7CA600C7025B /* AppDelegate.swift */; };
+		3D3569901DDD7CA600C7025B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D35698F1DDD7CA600C7025B /* ViewController.swift */; };
+		3D3569931DDD7CA600C7025B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3569911DDD7CA600C7025B /* Main.storyboard */; };
+		3D3569951DDD7CA600C7025B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D3569941DDD7CA600C7025B /* Assets.xcassets */; };
+		3D3569981DDD7CA600C7025B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D3569961DDD7CA600C7025B /* LaunchScreen.storyboard */; };
+		3D3569A31DDD7CA600C7025B /* Marauders_MapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3569A21DDD7CA600C7025B /* Marauders_MapTests.swift */; };
+		3D3569AE1DDD7CA600C7025B /* Marauders_MapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3569AD1DDD7CA600C7025B /* Marauders_MapUITests.swift */; };
+		B38B92A913B9D8F8194B2F10 /* libPods-Marauders Map.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 02F06B9EFA67DFF033190E6B /* libPods-Marauders Map.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D35699F1DDD7CA600C7025B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3569821DDD7CA600C7025B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3569891DDD7CA600C7025B;
+			remoteInfo = "Marauders Map";
+		};
+		3D3569AA1DDD7CA600C7025B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D3569821DDD7CA600C7025B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D3569891DDD7CA600C7025B;
+			remoteInfo = "Marauders Map";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02F06B9EFA67DFF033190E6B /* libPods-Marauders Map.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Marauders Map.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		331A68C42CC490E96F030E06 /* Pods-Marauders Map.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marauders Map.release.xcconfig"; path = "Pods/Target Support Files/Pods-Marauders Map/Pods-Marauders Map.release.xcconfig"; sourceTree = "<group>"; };
+		3D35698A1DDD7CA600C7025B /* Marauders Map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Marauders Map.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D35698D1DDD7CA600C7025B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D35698F1DDD7CA600C7025B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D3569921DDD7CA600C7025B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D3569941DDD7CA600C7025B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D3569971DDD7CA600C7025B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D3569991DDD7CA600C7025B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D35699E1DDD7CA600C7025B /* Marauders MapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marauders MapTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3569A21DDD7CA600C7025B /* Marauders_MapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marauders_MapTests.swift; sourceTree = "<group>"; };
+		3D3569A41DDD7CA600C7025B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D3569A91DDD7CA600C7025B /* Marauders MapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Marauders MapUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D3569AD1DDD7CA600C7025B /* Marauders_MapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marauders_MapUITests.swift; sourceTree = "<group>"; };
+		3D3569AF1DDD7CA600C7025B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AF5CE08A8FFD579167F93D3 /* Pods-Marauders Map.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marauders Map.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marauders Map/Pods-Marauders Map.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D3569871DDD7CA600C7025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38B92A913B9D8F8194B2F10 /* libPods-Marauders Map.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D35699B1DDD7CA600C7025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3569A61DDD7CA600C7025B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D3569811DDD7CA600C7025B = {
+			isa = PBXGroup;
+			children = (
+				3D35698C1DDD7CA600C7025B /* Marauders Map */,
+				3D3569A11DDD7CA600C7025B /* Marauders MapTests */,
+				3D3569AC1DDD7CA600C7025B /* Marauders MapUITests */,
+				3D35698B1DDD7CA600C7025B /* Products */,
+				41990EE5EBB698800B2629D4 /* Pods */,
+				4DACA1E78C77EE423BF714BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D35698B1DDD7CA600C7025B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D35698A1DDD7CA600C7025B /* Marauders Map.app */,
+				3D35699E1DDD7CA600C7025B /* Marauders MapTests.xctest */,
+				3D3569A91DDD7CA600C7025B /* Marauders MapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D35698C1DDD7CA600C7025B /* Marauders Map */ = {
+			isa = PBXGroup;
+			children = (
+				3D35698D1DDD7CA600C7025B /* AppDelegate.swift */,
+				3D35698F1DDD7CA600C7025B /* ViewController.swift */,
+				3D3569911DDD7CA600C7025B /* Main.storyboard */,
+				3D3569941DDD7CA600C7025B /* Assets.xcassets */,
+				3D3569961DDD7CA600C7025B /* LaunchScreen.storyboard */,
+				3D3569991DDD7CA600C7025B /* Info.plist */,
+			);
+			path = "Marauders Map";
+			sourceTree = "<group>";
+		};
+		3D3569A11DDD7CA600C7025B /* Marauders MapTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3569A21DDD7CA600C7025B /* Marauders_MapTests.swift */,
+				3D3569A41DDD7CA600C7025B /* Info.plist */,
+			);
+			path = "Marauders MapTests";
+			sourceTree = "<group>";
+		};
+		3D3569AC1DDD7CA600C7025B /* Marauders MapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D3569AD1DDD7CA600C7025B /* Marauders_MapUITests.swift */,
+				3D3569AF1DDD7CA600C7025B /* Info.plist */,
+			);
+			path = "Marauders MapUITests";
+			sourceTree = "<group>";
+		};
+		41990EE5EBB698800B2629D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8AF5CE08A8FFD579167F93D3 /* Pods-Marauders Map.debug.xcconfig */,
+				331A68C42CC490E96F030E06 /* Pods-Marauders Map.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4DACA1E78C77EE423BF714BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02F06B9EFA67DFF033190E6B /* libPods-Marauders Map.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D3569891DDD7CA600C7025B /* Marauders Map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3569B21DDD7CA600C7025B /* Build configuration list for PBXNativeTarget "Marauders Map" */;
+			buildPhases = (
+				7ABF8A694CBDA4F074D4826A /* [CP] Check Pods Manifest.lock */,
+				3D3569861DDD7CA600C7025B /* Sources */,
+				3D3569871DDD7CA600C7025B /* Frameworks */,
+				3D3569881DDD7CA600C7025B /* Resources */,
+				2B0F3AC3E3FE5AE6B3930FB9 /* [CP] Embed Pods Frameworks */,
+				A2B3DCCFB27FCD1C93AB0778 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Marauders Map";
+			productName = "Marauders Map";
+			productReference = 3D35698A1DDD7CA600C7025B /* Marauders Map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D35699D1DDD7CA600C7025B /* Marauders MapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3569B51DDD7CA600C7025B /* Build configuration list for PBXNativeTarget "Marauders MapTests" */;
+			buildPhases = (
+				3D35699A1DDD7CA600C7025B /* Sources */,
+				3D35699B1DDD7CA600C7025B /* Frameworks */,
+				3D35699C1DDD7CA600C7025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3569A01DDD7CA600C7025B /* PBXTargetDependency */,
+			);
+			name = "Marauders MapTests";
+			productName = "Marauders MapTests";
+			productReference = 3D35699E1DDD7CA600C7025B /* Marauders MapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D3569A81DDD7CA600C7025B /* Marauders MapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3569B81DDD7CA600C7025B /* Build configuration list for PBXNativeTarget "Marauders MapUITests" */;
+			buildPhases = (
+				3D3569A51DDD7CA600C7025B /* Sources */,
+				3D3569A61DDD7CA600C7025B /* Frameworks */,
+				3D3569A71DDD7CA600C7025B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3569AB1DDD7CA600C7025B /* PBXTargetDependency */,
+			);
+			name = "Marauders MapUITests";
+			productName = "Marauders MapUITests";
+			productReference = 3D3569A91DDD7CA600C7025B /* Marauders MapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D3569821DDD7CA600C7025B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = A.S.D.Vinay;
+				TargetAttributes = {
+					3D3569891DDD7CA600C7025B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 29W627EGMX;
+						ProvisioningStyle = Automatic;
+					};
+					3D35699D1DDD7CA600C7025B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 29W627EGMX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D3569891DDD7CA600C7025B;
+					};
+					3D3569A81DDD7CA600C7025B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 29W627EGMX;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3D3569891DDD7CA600C7025B;
+					};
+				};
+			};
+			buildConfigurationList = 3D3569851DDD7CA600C7025B /* Build configuration list for PBXProject "Marauders Map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D3569811DDD7CA600C7025B;
+			productRefGroup = 3D35698B1DDD7CA600C7025B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D3569891DDD7CA600C7025B /* Marauders Map */,
+				3D35699D1DDD7CA600C7025B /* Marauders MapTests */,
+				3D3569A81DDD7CA600C7025B /* Marauders MapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D3569881DDD7CA600C7025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3569981DDD7CA600C7025B /* LaunchScreen.storyboard in Resources */,
+				3D3569951DDD7CA600C7025B /* Assets.xcassets in Resources */,
+				3D3569931DDD7CA600C7025B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D35699C1DDD7CA600C7025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3569A71DDD7CA600C7025B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B0F3AC3E3FE5AE6B3930FB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marauders Map/Pods-Marauders Map-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7ABF8A694CBDA4F074D4826A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2B3DCCFB27FCD1C93AB0778 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Marauders Map/Pods-Marauders Map-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D3569861DDD7CA600C7025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3569901DDD7CA600C7025B /* ViewController.swift in Sources */,
+				3D35698E1DDD7CA600C7025B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D35699A1DDD7CA600C7025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3569A31DDD7CA600C7025B /* Marauders_MapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D3569A51DDD7CA600C7025B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D3569AE1DDD7CA600C7025B /* Marauders_MapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D3569A01DDD7CA600C7025B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3569891DDD7CA600C7025B /* Marauders Map */;
+			targetProxy = 3D35699F1DDD7CA600C7025B /* PBXContainerItemProxy */;
+		};
+		3D3569AB1DDD7CA600C7025B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D3569891DDD7CA600C7025B /* Marauders Map */;
+			targetProxy = 3D3569AA1DDD7CA600C7025B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D3569911DDD7CA600C7025B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3569921DDD7CA600C7025B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D3569961DDD7CA600C7025B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D3569971DDD7CA600C7025B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D3569B01DDD7CA600C7025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D3569B11DDD7CA600C7025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D3569B31DDD7CA600C7025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AF5CE08A8FFD579167F93D3 /* Pods-Marauders Map.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Marauders Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..Marauders-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D3569B41DDD7CA600C7025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 331A68C42CC490E96F030E06 /* Pods-Marauders Map.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "Marauders Map/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..Marauders-Map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3D3569B61DDD7CA600C7025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "Marauders MapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..Marauders-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marauders Map.app/Marauders Map";
+			};
+			name = Debug;
+		};
+		3D3569B71DDD7CA600C7025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "Marauders MapTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..Marauders-MapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Marauders Map.app/Marauders Map";
+			};
+			name = Release;
+		};
+		3D3569B91DDD7CA600C7025B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "Marauders MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..Marauders-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Marauders Map";
+			};
+			name = Debug;
+		};
+		3D3569BA1DDD7CA600C7025B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 29W627EGMX;
+				INFOPLIST_FILE = "Marauders MapUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinay.a.s.d..Marauders-MapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Marauders Map";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D3569851DDD7CA600C7025B /* Build configuration list for PBXProject "Marauders Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3569B01DDD7CA600C7025B /* Debug */,
+				3D3569B11DDD7CA600C7025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3569B21DDD7CA600C7025B /* Build configuration list for PBXNativeTarget "Marauders Map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3569B31DDD7CA600C7025B /* Debug */,
+				3D3569B41DDD7CA600C7025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3569B51DDD7CA600C7025B /* Build configuration list for PBXNativeTarget "Marauders MapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3569B61DDD7CA600C7025B /* Debug */,
+				3D3569B71DDD7CA600C7025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D3569B81DDD7CA600C7025B /* Build configuration list for PBXNativeTarget "Marauders MapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D3569B91DDD7CA600C7025B /* Debug */,
+				3D3569BA1DDD7CA600C7025B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D3569821DDD7CA600C7025B /* Project object */;
+}
